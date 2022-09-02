@@ -5,26 +5,13 @@
     background-size: cover;
     background-attachment: fixed;
     &_wrapper {
-        background-color: white;
-        position: absolute;
-        width: 320px;
-        height: 320px;
         transform: translate(-50%, -50%);
         top: 45%;
         left: 50%;
-        border-radius: 160px;
-        overflow: hidden;
-    }
-    &_logo {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
     }
     &_tittle {
         position: absolute;
         width: 90%;
-        text-align: center;
         color: white;
         top: 80%;
         left: 50%;

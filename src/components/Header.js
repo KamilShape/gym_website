@@ -1,15 +1,14 @@
 import './styles/header.css'
 import logo from './images/gym_logo.png'
-// import { useState } from 'react';
 
 function NavBar() {
 
   return (
     <header className="header">
-      <div className="header_wrapper">
-        <img src={logo} className="header_logo" />
+      <div className="header_wrapper wrapper posAbs">
+        <img src={logo} className="wrapper_image posAbs" />
       </div>
-      <h1 className='header_tittle'>Today is best time for change your physique!</h1>
+      <h1 className='title header_tittle'>Today is best time for change your physique!</h1>
     </header>
   );
 }
