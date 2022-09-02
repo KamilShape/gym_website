@@ -2,7 +2,7 @@ import './styles/navbar.css'
 import logo from './images/gym_logo.png'
 import { useState } from 'react';
 
-function NavBar() {
+function Header() {
   const [display, setDisplay] = useState(false)
   function showMenu(){
     setDisplay(prevState => !prevState)
@@ -15,7 +15,7 @@ function NavBar() {
         <li className="navbar_list-item">start</li>
         <li className="navbar_list-item">our gym</li>
         <li className="navbar_list-item">training</li>
-        <li className="navbar_list-item">calculator</li>
+        <li className="navbar_list-item">calculators</li>
         <li className="navbar_list-item">join us</li>
       </ul>
       <div className="navbar_hamburger" onClick={showMenu}>
@@ -27,4 +27,4 @@ function NavBar() {
   );
 }
 
-export default  NavBar
+export default  Header

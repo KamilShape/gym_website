@@ -3,6 +3,7 @@
   width: 100vw;
   min-width: 414px;
   border-bottom: 1px solid black;
+  background-color: white;
   display: flex;
   justify-content: space-evenly;
 }
@@ -17,11 +18,7 @@
 .navbar_title {
   font-size: 28px;
   margin: auto;
-}
-@media (min-width: 768px) {
-  .navbar_title {
-    display: none;
-  }
+  text-align: center;
 }
 .navbar_hamburger {
   width: 35px;
@@ -38,7 +35,6 @@
 }
 .navbar_bar {
   position: relative;
-  transition: 0.5s ease-out;
   height: 7px;
   width: 100%;
   background-color: black;
@@ -60,24 +56,26 @@
 }
 .navbar_list {
   position: fixed;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  transition: 0.5s ease-out;
   width: 100%;
   top: 70px;
   visibility: hidden;
   opacity: 0;
   list-style: none;
   text-align: center;
+  border-top: 1px solid black;
   text-transform: uppercase;
 }
 @media (min-width: 768px) {
   .navbar_list {
     position: static;
+    border-top: none;
     flex-direction: row;
     visibility: visible;
     margin: auto 0;
-    width: 70%;
+    width: 55%;
     opacity: 1;
   }
 }
@@ -86,9 +84,16 @@
   width: 100vw;
   border-bottom: 1px solid black;
 }
+.navbar_list-item:hover {
+  background-color: black;
+  color: white;
+}
 @media (min-width: 768px) {
   .navbar_list-item {
     width: 100%;
+    cursor: pointer;
+    line-height: 70px;
+    height: 70px;
     border-bottom: none;
   }
 }/*# sourceMappingURL=navbar.css.map */
