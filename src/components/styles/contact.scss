@@ -1,0 +1,54 @@
+.contact {
+    &_container {
+        margin: 10px auto;
+        max-width: 800px;
+    }
+    &_form {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 350px;
+        height: 400px;
+        padding: 2%;
+    }
+    &_label {
+        padding-bottom: 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &_name {
+        width: 30%;
+        font-weight: 700;
+    }
+    &_input {
+        width: 70%;
+        padding: 1%;
+        border-radius: 10px;
+    }
+    &_message {
+        height: 150px;
+        border-radius: 10px;
+        padding: 2%;
+        outline: none;
+    }
+    &_button {
+        width: 100px;
+        text-transform: uppercase;
+        padding: 5px;
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        margin: 10px auto;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &_map {
+        display: block;
+        margin: 20px auto;
+        border: none;
+        width: 350px;
+        height: 400px;
+    }
+}

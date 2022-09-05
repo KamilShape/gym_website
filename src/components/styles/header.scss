@@ -6,6 +6,9 @@
     background-attachment: fixed;
     &_wrapper {
         transform: translate(-50%, -50%);
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
         top: 45%;
         left: 50%;
     }

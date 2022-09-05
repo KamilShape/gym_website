@@ -1,0 +1,15 @@
+.ourgym {
+    &_wrapper {
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        @media (min-width: 768px) {
+            width: 250px;
+            height: 250px;
+        }
+        @media (min-width: 1024px) {
+            width: 320px;
+            height: 320px;
+        }
+    }
+}
