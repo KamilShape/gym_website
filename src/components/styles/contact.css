@@ -1,5 +1,10 @@
+.contact {
+  min-width: 414px;
+  max-width: 1414px;
+  background-color: rgba(0, 0, 0, 0.01);
+}
 .contact_container {
-  margin: 10px auto;
+  margin: 10px auto 0 auto;
   max-width: 800px;
 }
 .contact_form {

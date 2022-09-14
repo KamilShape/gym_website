@@ -1,7 +1,7 @@
 import './styles/header.css'
 import logo from './images/gym_logo.png'
 
-function NavBar() {
+function Header() {
 
   return (
     <header className="header">
@@ -13,4 +13,4 @@ function NavBar() {
   );
 }
 
-export default  NavBar
+export default  Header

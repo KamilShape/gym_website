@@ -2,9 +2,16 @@
   margin: 0;
   padding: 0;
   transition: 0.5s ease-out;
+  box-sizing: border-box;
   font-family: "Lato", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  max-width: 1414px;
+  margin: 0 auto;
+  background-color: white;
 }
 
 .displaying {
@@ -28,7 +35,6 @@
 }
 
 .section_title {
-  margin-top: 60px;
   font-size: 40px;
 }
 

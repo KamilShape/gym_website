@@ -4,7 +4,7 @@ function Contact() {
 
   return (
     <section className="contact">
-       <h1 className="title section_title">our gym</h1>
+       <h1 className="title section_title">Contact</h1>
       <div className="container contact_container">
         <div className="contact_form">
         <h2 className="title">Send us message :)</h2>

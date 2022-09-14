@@ -1,8 +1,10 @@
 footer {
-  width: 100%;
+  min-width: 414px;
+  max-width: 1414px;
+  width: 100vw;
   background-color: black;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
   transition: 0.4s ease-out;
 }/*# sourceMappingURL=footer.css.map */

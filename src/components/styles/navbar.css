@@ -2,6 +2,7 @@
   position: fixed;
   width: 100vw;
   min-width: 414px;
+  max-width: 1414px;
   border-bottom: 1px solid black;
   background-color: white;
   display: flex;
@@ -71,7 +72,7 @@
   display: flex;
   flex-direction: column;
   min-width: 414px;
-  width: 100%;
+  width: 100vw;
   top: 50px;
   visibility: hidden;
   opacity: 0;
@@ -87,25 +88,30 @@
     flex-direction: row;
     visibility: visible;
     margin: auto 0;
-    width: 55%;
+    width: 50%;
     opacity: 1;
   }
 }
 .navbar_list-item {
-  padding: 5px;
-  width: 100vw;
+  margin: none;
   border-bottom: 1px solid black;
 }
 .navbar_list-item:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   .navbar_list-item {
-    width: 100%;
-    cursor: pointer;
+    width: 25%;
     line-height: 50px;
     height: 50px;
     border-bottom: none;
   }
+}
+.navbar_list-item-link {
+  padding: 0 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=navbar.css.map */
