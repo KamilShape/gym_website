@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/gym_website/static/css/main.05f02391.css",
+    "main.js": "/gym_website/static/js/main.2560c61e.js",
+    "static/media/powerlifting.jpg": "/gym_website/static/media/powerlifting.4ef7d72f694e963491b6.jpg",
+    "static/media/header_photo.jpg": "/gym_website/static/media/header_photo.9aa57a7f8acbf205fc5d.jpg",
+    "static/media/best_trainers.jpg": "/gym_website/static/media/best_trainers.2faef2bc85c258d1979e.jpg",
+    "static/media/bodybuilding.jpg": "/gym_website/static/media/bodybuilding.15a0475e4a840db5ed96.jpg",
+    "static/media/much_space.jpg": "/gym_website/static/media/much_space.83f47e8a55b707d7a379.jpg",
+    "static/media/crossfit.jpg": "/gym_website/static/media/crossfit.fafa71bab058ae743a64.jpg",
+    "static/media/modern_equip.jpg": "/gym_website/static/media/modern_equip.e80d726ca43d6bbb156b.jpg",
+    "static/media/gym_logo.png": "/gym_website/static/media/gym_logo.5a143a5cba60bb24bc1d.png",
+    "index.html": "/gym_website/index.html",
+    "main.05f02391.css.map": "/gym_website/static/css/main.05f02391.css.map",
+    "main.2560c61e.js.map": "/gym_website/static/js/main.2560c61e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05f02391.css",
+    "static/js/main.2560c61e.js"
+  ]
+}
